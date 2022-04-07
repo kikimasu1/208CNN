@@ -60,7 +60,7 @@
 <!-- 
     <div class="rexFigg">
     <img
-    src="PUBLIC_URL/assets/figures/relu_graph.png"
+    src="public\assets\figures\relu_graph.png"
     alt="relu graph"
     width="40%"
     height="40%"
@@ -107,7 +107,7 @@
     <section class = "explain">
       <div class="figure">
         <img
-          src="PUBLIC_URL/assets/figures/convlayer_overview_demo.gif"
+          src="public\assets\figures\convlayer_overview_demo.gif"
           alt="clicking on topmost first conv. layer activation map"
           width="60%"
           height="60%"
@@ -124,7 +124,7 @@
   
       <div class="figure">
         <img
-          src="PUBLIC_URL/assets/figures/convlayer_detailedview_demo.gif"
+          src="public\assets\figures\convlayer_detailedview_demo.gif"
           alt="clicking on topmost first conv. layer activation map"
           width="80%"
           height="80%"
@@ -136,7 +136,7 @@
         </div>
   
           <img
-            src="PUBLIC_URL/assets/figures/softmax_animation.gif"
+            src="public\assets\figures\softmax_animation.gif"
             alt="softmax interactive formula view"
            
           />
@@ -237,11 +237,6 @@ section.try-it-out{
     grid-template-columns: repeat(2,50%);
 }
 
-.img{
-    margin-top: 20px;
-    grid-area: CNN;
-}
-
   h2{
     text-transform: uppercase;
     position: relative;
@@ -282,32 +277,13 @@ h4::before{
     line-height: 1.6;
   }
 
-  #description small {
-    font-size: 12px;
-  }
-
   #description ol li img {
     vertical-align: middle;
   }
 
-  #description .video-link {
-    color: #3273dc;
-    cursor: pointer;
-    font-weight: normal;
-    text-decoration: none;
-  }
 
-  #description ul {
-    list-style-type: disc;
-    margin-top: -10px;
-    margin-left: 40px;
-    margin-bottom: 15px;
-  }
 
   #description a:hover,
-  #description .video-link:hover {
-    text-decoration: underline;
-  }
 
   .figure{
     margin-top: auto;
@@ -317,16 +293,5 @@ h4::before{
 
   }
 
-  /*像素问题*/
-  #description .rexFigg{
-    margin-left: 400px;
-    /* align-items: center; */
-  }
 
-  .video {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 </style>
