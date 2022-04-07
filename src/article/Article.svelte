@@ -107,7 +107,7 @@
     <section class = "explain">
       <div class="figure">
         <img
-          src="public\assets\figures\convlayer_overview_demo.gif"
+          src="assets\figures\convlayer_overview_demo.gif"
           alt="clicking on topmost first conv. layer activation map"
           width="60%"
           height="60%"
@@ -124,7 +124,7 @@
   
       <div class="figure">
         <img
-          src="public\assets\figures\convlayer_detailedview_demo.gif"
+          src="assets\figures\convlayer_detailedview_demo.gif"
           alt="clicking on topmost first conv. layer activation map"
           width="80%"
           height="80%"
@@ -136,7 +136,7 @@
         </div>
   
           <img
-            src="public\assets\figures\softmax_animation.gif"
+            src="assets\figures\softmax_animation.gif"
             alt="softmax interactive formula view"
            
           />
