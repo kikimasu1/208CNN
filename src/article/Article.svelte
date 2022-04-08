@@ -57,19 +57,7 @@
     <p>
       The ReLU activation function is a one-to-one mathematical operation: {reluEquation}
     </p>
-<!-- 
-    <div class="rexFigg">
-    <img
-    src="public\assets\figures\relu_graph.png"
-    alt="relu graph"
-    width="40%"
-    height="40%"
-  />
-  <div class="figure-caption">
-    Figure 4. The ReLU activation function graphed, which disregards all
-    negative data.
-  </div>
-</div>  -->
+
 
     <p>
       This activation function is applied elementwise on every value from the
@@ -107,7 +95,7 @@
     <section class = "explain">
       <div class="figure">
         <img
-          src="assets\figures\convlayer_overview_demo.gif"
+          src="https://kikimasu1.github.io/cnn-explainer/assets/figures/convlayer_overview_demo.gif"
           alt="clicking on topmost first conv. layer activation map"
           width="60%"
           height="60%"
@@ -124,7 +112,7 @@
   
       <div class="figure">
         <img
-          src="assets\figures\convlayer_detailedview_demo.gif"
+          src="https://kikimasu1.github.io/cnn-explainer/assets/figures/convlayer_detailedview_demo.gif"
           alt="clicking on topmost first conv. layer activation map"
           width="80%"
           height="80%"
@@ -136,7 +124,7 @@
         </div>
   
           <img
-            src="assets\figures\softmax_animation.gif"
+            src="https://kikimasu1.github.io/cnn-explainer/assets/figures/softmax_animation.gif"
             alt="softmax interactive formula view"
            
           />
