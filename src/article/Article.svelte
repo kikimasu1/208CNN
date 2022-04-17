@@ -95,7 +95,7 @@
     <section class = "explain">
       <div class="figure">
         <img
-          src="https://kikimasu1.github.io/cnn-explainer/assets/figures/convlayer_overview_demo.gif"
+          src="assets/figures/convlayer_overview_demo.gif"
           alt="clicking on topmost first conv. layer activation map"
           width="60%"
           height="60%"
